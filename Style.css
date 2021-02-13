@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+#myCarousel{
+    background-color: orange;
+}
+#myCarousel img{
+    height: 350px;
+}
+.carousel-inner h3{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}

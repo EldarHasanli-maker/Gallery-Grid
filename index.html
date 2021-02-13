@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Photo Gallery
+    </title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+
+
+
+    <div class="container">
+        <section id="grids">
+            <h2>Grid Gallery</h2>
+
+            <div class="row">
+                <img src="banana.jpg">
+                <img src="orange.jpg">
+                <img src="apple.jpg">
+                <img src="strawberry.jfif">
+
+
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="slides">
+            <h2>Sliding Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+               
+                <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                    <img class="img-responsive" src="apple.jpg">
+                    <div class="carousel-caption">
+                    <h3>Apple</h3>
+                    </div>
+                    </center>
+                    </div>
+                   <div class="item">
+                       <center> 
+                    <img class="img-responsive" src="orange.jpg">
+                    <div class="carousel-caption">
+                    <h3>Orange</h3>
+                    </div>
+                       </center>
+                    </div> 
+                    <div class="item">
+                        <center>
+                    <img class="img-responsive" src="banana.jpg">
+                    <div class="carousel-caption">
+                    <h3>Banana</h3>
+                    </div>
+                        </center>
+                    </div>
+                    <div class="item">
+                        <center>
+                    <img class="img-responsive" src="strawberry.jfif">
+                    <div class="carousel-caption">
+                    <h3>Strawberry</h3>
+                    </div>
+                        </center>
+                    </div>
+                </div>
+                <a class="left carousel-conrtol" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            
+                    
+                </a>
+                 <a class="right carousel-conrtol" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            
+                 
+                </a>
+
+            </div>
+
+        </section>
+    </div>
+</body>
+
+</html>
